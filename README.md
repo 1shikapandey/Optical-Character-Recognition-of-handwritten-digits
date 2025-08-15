@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>OCR Handwritten Digits - README</title>
 </head>
 <body>
 
@@ -100,15 +99,3 @@ It uses an image containing 5000 samples of handwritten digits (each of size <st
 
 <h2>✅ Output</h2>
 <pre><code>Accuracy = 94.72%</code></pre>
-
-<h2>🚀 Future Improvements</h2>
-<ul>
-  <li>Display and test on custom handwritten digit images</li>
-  <li>Integrate GUI for drawing digits</li>
-  <li>Replace kNN with more advanced models (e.g. SVM or CNN)</li>
-</ul>
-
-<p>If you find this useful, feel free to ⭐ the repository!</p>
-
-</body>
-</html>
