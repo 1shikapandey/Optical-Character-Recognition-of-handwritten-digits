@@ -1,62 +1,114 @@
-# Optical-Character-Recognition-of-handwritten-digits
-Optical Character Recognition (OCR) of Handwritten Digits
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OCR Handwritten Digits - README</title>
+</head>
+<body>
 
-This project demonstrates how to build a simple Optical Character Recognition (OCR) system that can recognize handwritten digits using OpenCV and the k-Nearest Neighbors (kNN) algorithm.
+<h1>Optical Character Recognition (OCR) of Handwritten Digits</h1>
 
-It uses an image containing 5000 samples of handwritten digits (each of size 20×20 pixels), splits them into individual cells, trains a kNN model, and then evaluates its accuracy.
+<p>
+This project demonstrates how to build a simple Optical Character Recognition (OCR) system that can recognize handwritten digits using <strong>OpenCV</strong> and the <strong>k-Nearest Neighbors (kNN)</strong> algorithm.
+It uses an image containing 5000 samples of handwritten digits (each of size <strong>20×20 pixels</strong>), splits them into individual cells, trains a kNN model, and then evaluates its accuracy.
+</p>
 
-🧠 Features
+<h2>🧠 Features</h2>
+<ul>
+  <li>Converts image to grayscale</li>
+  <li>Splits the source image into <strong>5000</strong> individual digit images</li>
+  <li>Prepares <strong>training</strong> and <strong>testing</strong> datasets</li>
+  <li>Trains a <strong>kNN classifier</strong></li>
+  <li>Evaluates the model and displays its <strong>accuracy</strong></li>
+</ul>
 
-Converts image to grayscale
-
-Splits the source image into 5000 individual digit images
-
-Prepares training and testing datasets
-
-Trains a kNN classifier
-
-Evaluates the model and displays its accuracy
-
-📂 File Structure
+<h2>📂 File Structure</h2>
+<pre>
 .
 ├── digits1.png          # Image containing 5000 handwritten digits (50 rows × 100 columns)
 ├── ocr_digits.py        # Python script for OCR using OpenCV
-└── README.md
+└── README.html
+</pre>
 
-⚙️ Requirements
-Library	Version (recommended)
-Python	3.x
-OpenCV	>= 4.0
-NumPy	>= 1.20
+<h2>⚙️ Requirements</h2>
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>Library</th>
+    <th>Version (recommended)</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>3.x</td>
+  </tr>
+  <tr>
+    <td>OpenCV</td>
+    <td>&gt;= 4.0</td>
+  </tr>
+  <tr>
+    <td>NumPy</td>
+    <td>&gt;= 1.20</td>
+  </tr>
+</table>
 
-Install the required packages using:
+<p>Install the required packages using:</p>
+<pre><code>pip install opencv-python numpy</code></pre>
 
-pip install opencv-python numpy
+<h2>▶️ How to Run</h2>
+<ol>
+  <li>Place <strong>digits1.png</strong> in the same directory as the script.</li>
+  <li>Run the script:</li>
+</ol>
+<pre><code>python ocr_digits.py</code></pre>
 
-▶️ How to Run
+<p>You should see the model’s <strong>accuracy</strong> printed in the terminal.</p>
 
-Place digits1.png in the same directory as the script.
+<h2>💡 How It Works</h2>
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>Step</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Read <code>digits1.png</code> and convert it to grayscale</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Split the image into 20×20 pixel cells (50 rows × 100 columns = 5000 samples)</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Create training data from the first 50 columns and test data from the next 50 columns</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Assign labels (0–9) to each digit sample</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Train a <strong>kNN classifier</strong> using OpenCV</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Use the classifier to predict test samples</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Calculate and display the recognition <strong>accuracy</strong></td>
+  </tr>
+</table>
 
-Run the script:
+<h2>✅ Output</h2>
+<pre><code>Accuracy = 94.72%</code></pre>
 
-python ocr_digits.py
+<h2>🚀 Future Improvements</h2>
+<ul>
+  <li>Display and test on custom handwritten digit images</li>
+  <li>Integrate GUI for drawing digits</li>
+  <li>Replace kNN with more advanced models (e.g. SVM or CNN)</li>
+</ul>
 
+<p>If you find this useful, feel free to ⭐ the repository!</p>
 
-You should see the model’s accuracy printed in the terminal.
-
-💡 How It Works
-Step	Description
-1	Read digits1.png and convert it to grayscale
-2	Split the image into 20×20 pixel cells (50 rows × 100 columns = 5000 samples)
-3	Create training data from the first 50 columns and test data from the next 50 columns
-4	Assign labels (0–9) to each digit sample
-5	Train a kNN classifier using OpenCV
-6	Use the classifier to predict test samples
-7	Calculate and display the recognition accuracy
-✅ Output
-
-The script prints the accuracy of the kNN classifier.
-For example:
-
-Accuracy = 94.72%
-
+</body>
+</html>
