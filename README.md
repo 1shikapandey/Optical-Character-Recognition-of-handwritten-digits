@@ -11,8 +11,14 @@
 This project demonstrates how to build a simple Optical Character Recognition (OCR) system that can recognize handwritten digits using <strong>OpenCV</strong> and the <strong>k-Nearest Neighbors (kNN)</strong> algorithm.
 It uses an image containing 5000 samples of handwritten digits (each of size <strong>20×20 pixels</strong>), splits them into individual cells, trains a kNN model, and then evaluates its accuracy.
 </p>
-
-
+<h2>🧠 Features</h2>
+<ul>
+  <li>Converts image to grayscale</li>
+  <li>Splits the source image into <strong>5000</strong> individual digit images</li>
+  <li>Prepares <strong>training</strong> and <strong>testing</strong> datasets</li>
+  <li>Trains a <strong>kNN classifier</strong></li>
+  <li>Evaluates the model and displays its <strong>accuracy</strong></li>
+</ul>
 
 <h2>📂 File Structure</h2>
 <pre>
