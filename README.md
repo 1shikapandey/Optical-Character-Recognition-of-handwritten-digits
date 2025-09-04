@@ -11,7 +11,7 @@ This project demonstrates how to build a simple Optical Character Recognition (O
 It uses an image containing 5000 samples of handwritten digits (each of size <strong>20×20 pixels</strong>), splits them into individual cells, trains a kNN model, and then evaluates its accuracy.
 </p>
 
-<h2>🧠 Features</h2>
+<h2>🧠 Features </h2>
 <ul>
   <li>Converts image to grayscale</li>
   <li>Splits the source image into <strong>5000</strong> individual digit images</li>
