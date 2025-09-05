@@ -96,5 +96,5 @@ It uses an image containing 5000 samples of handwritten digits (each of size <st
   </tr>
 </table>
 
-<h2>✅ Output</h2>
+<h2>Output</h2>
 <pre><code>Accuracy = 94.72%</code></pre>
