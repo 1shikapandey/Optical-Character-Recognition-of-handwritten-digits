@@ -28,7 +28,7 @@ It uses an image containing 5000 samples of handwritten digits (each of size <st
 └── README.html
 </pre>
 
-<h2>⚙️ Requirements</h2>
+<h2>Requirements</h2>
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
     <th>Library</th>
