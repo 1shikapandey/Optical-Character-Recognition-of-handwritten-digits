@@ -20,7 +20,7 @@ It uses an image containing 5000 samples of handwritten digits (each of size <st
   <li>Evaluates the model and displays its <strong>accuracy</strong></li>
 </ul>
 
-<h2>📂 File Structure </h2>
+<h2>File Structure </h2>
 <pre>
 .
 ├── digits1.png          # Image containing 5000 handwritten digits (50 rows × 100 columns)
@@ -51,7 +51,7 @@ It uses an image containing 5000 samples of handwritten digits (each of size <st
 <p>Install the required packages using:</p>
 <pre><code>pip install opencv-python numpy</code></pre>
 
-<h2>▶️ How to Run</h2>
+<h2> How to Run</h2>
 <ol>
   <li>Place <strong>digits1.png</strong> in the same directory as the script.</li>
   <li>Run the script:</li>
