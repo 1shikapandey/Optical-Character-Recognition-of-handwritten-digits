@@ -60,7 +60,7 @@ It uses an image containing 5000 samples of handwritten digits (each of size <st
 
 <p>You should see the model’s <strong>accuracy</strong> printed in the terminal.</p>
 
-<h2>💡 How It Works</h2>
+<h2>How It Works</h2>
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
     <th>Step</th>
