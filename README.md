@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h1>Optical Character Recognition (OCR) of Handwritten Digits</h1>
+<h1></h1>
 <p>
 This project demonstrates how to build a simple Optical Character Recognition (OCR) system that can recognize handwritten digits using <strong>OpenCV</strong> and the <strong>k-Nearest Neighbors (kNN)</strong> algorithm.
 It uses an image containing 5000 samples of handwritten digits (each of size <strong>20×20 pixels</strong>), splits them into individual cells, trains a kNN model, and then evaluates its accuracy.
