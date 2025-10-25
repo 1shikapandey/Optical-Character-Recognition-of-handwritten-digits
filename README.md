@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
 </head>
 <body>
+  
 <h1>Optical Character Recognition (OCR) of Handwritten Digits</h1>
 <p>
 This project demonstrates how to build a simple Optical Character Recognition (OCR) system that can recognize handwritten digits using <strong>OpenCV</strong> and the <strong>k-Nearest Neighbors (kNN)</strong> algorithm.
